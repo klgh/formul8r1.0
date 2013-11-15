@@ -1,0 +1,23 @@
+ <div class="jumbotronsupport">
+      <div class="container">
+      <div class="row-fluid">
+        <div class="col-sm-6">
+          <h1>if you have problems,</h1>
+          <h1>we have <span style="color: #67B3C5;">answers.</span></h1>
+        </div>
+      </div>
+        <div class="col-sm-6">
+        &nbsp; &nbsp;
+          <%= link_to image_tag("support_page.png"), {:class => ""}%>         
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+          
+            <h3>Have a question?</h3>
+            <%= text_field_tag(nil, '',:class=>"form-control input-lg")%> <br>
+            <p><%= link_to "send", 'javascript:;',:class=>"btn btn-success pull-right"%></p>
+      </div>
+    </div>

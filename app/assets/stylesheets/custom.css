@@ -1,0 +1,282 @@
+/** LAYOUT:APPLICATION **/
+  body {
+      padding-top: 15px;
+      padding-bottom: 40px;
+      position: relative;
+  }
+
+      @media (max-width: 979px) {
+          body {
+              padding-top: 15px;
+              position: relative;
+              padding-left: 5px;
+              padding-right: 5px;
+          }
+      }
+
+.navbar-toggle {
+  background-color: #FA9300;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #FBC031;
+}
+
+  footer {
+      line-height: 2.5;
+  }    
+
+  /**makes images resize nicely**/
+  img {
+      max-width: 100%;
+  }
+
+  @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+
+  footer {
+      font-family: arial;
+  }
+
+  h5,.h5 {
+      font-size:13px;
+  }
+
+  .btmftr {
+    font-size: 13px;
+    font-family:'Arial';
+    font-weight:bold;
+    line-height:1.1;
+  }
+
+  footer li {
+      font-size: 10px;
+      font-family:'Arial';
+      font-weight:normal;
+  }
+
+  h3,.h3 {
+      font-size:27px;
+  }
+
+  .navbar {
+      margin-top: 0px;
+      margin-bottom: 0px;
+  }
+
+  #navtop {
+      margin-top: -10px;
+      margin-bottom: 12px;
+  }
+
+  .nav>li>a:hover {
+      text-decoration:none;
+      background-color: white;
+  }
+
+
+  #navtop .btn {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+
+  }
+
+  a {
+      color:#000000;
+      text-decoration:none;
+      }
+  a:hover,a:focus {
+      color:#000000;
+      text-decoration:none;
+  }
+
+  a:focus {
+      outline:thin dotted #000000;
+      outline:5px auto -webkit-focus-ring-color;
+      outline-offset:-2px;
+  }
+
+  @font-face {
+      font-family: 'Arial';
+      src: url('/assets/fonts/Arial/Arial.ttf') format ('truetype');
+      src: url('/assets/fonts/Arial/Arial Italic.ttf') format ('truetype');
+      src: url('/assets/fonts/Arial/Arial Bold.ttf') format ('truetype');
+      src: url('/assets/fonts/Arial/Arial Bold Italic.ttf') format ('truetype');
+      font-weight: normal;
+      font-style: normal;
+  }
+
+  h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+      font-family:'Arial';
+      font-weight:500;
+      line-height:1.1;
+  }
+
+/** /LAYOUT:APPLICATION **/
+
+/** INDEX.html **/
+  .jumbotronfeatures {
+      padding: 30px;
+      margin-bottom: 0px;
+      font-size: 33px;
+      font-weight: 200;
+      line-height: 2.1428571435;
+      color: #535353;
+      background-color: #62B244;
+  }
+
+  .jumbotronfeatures {
+      padding: 30px;
+      margin-bottom: 0px;
+      font-size: 21px;
+      font-weight: 200;
+      line-height: 2.1428571435;
+      color: white;
+      background-color: #78BD46;
+  }
+
+  .jumbotronpricing {
+      padding: 30px;
+      margin-bottom: 0px;
+      font-size: 21px;
+      font-weight: 200;
+      line-height: 2.1428571435;
+      color: white;
+      background-color: #FBC031;
+  }
+
+  .jumbotronsupport {
+      padding: 30px;
+      margin-bottom: 0px;
+      font-size: 21px;
+      font-weight: 200;
+      line-height: 2.1428571435;
+      color: white;
+      background-color: #1386A8;
+  }
+/** /INDEX.html**/
+
+
+/** FEATURES.html**/
+
+  #featparagraph {
+    font-size: 14px;
+    font-family:'Arial';
+    font-weight:normal;
+    line-height:1.1;
+    padding-top: 15px;
+  }
+
+/** /FEATURES.html**/
+
+
+
+
+
+/** WHAT ARE THESE**/
+#components {
+    min-height: 500px;
+}
+
+#target fieldset {
+    border: 1px solid #ccc;
+    min-height: 200px;
+    padding: 5px;
+    padding-bottom: 30px;
+}
+
+.component {
+    cursor: pointer;
+}
+
+input {
+    cursor: pointer;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.popover .control-group {
+    cursor: default;
+}
+.popover input {
+    cursor: text;
+}
+
+.temp{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    position: absolute;
+    z-index: 999999;
+    top: 0;
+    overflow-x: hidden;
+    left: 0;
+}
+
+.temp form {
+    padding: 8px 4px;
+    border: 1px dotted #ccc;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 0px 30px #999;
+    -webkit-transition: -webkit-transform 0.1s ease-out;
+    overflow: hidden;
+}
+
+
+#render{
+    min-height: 500px;
+    font-family: monospace;
+}
+
+/* Popovers now are appended to their parent rather
+than to the body/main document as they once were.
+We need to over-ride some inherited stuff.. */
+form .popover .controls {
+    margin-left: 0;
+}
+
+form .popover .control-label {
+    text-align: left;
+}
+
+form .popover form {
+    width: 224px;
+}
+
+.popover-content form .btn{
+    margin-right: 10px
+}
+
+.target:after{
+    float:left;
+    content: " ";
+    height: 77px;
+    margin-top: 3px;
+    background: #f0f0f0;
+    width: 100%;
+    border: 1px dashed #ccc;
+}
+
+#target, #input, #radioscheckboxes, #select, #buttons {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#target fieldset{
+    width: 100%;
+    overflow: hidden;
+}
+
+/**END WHAT ARE THESE**/
