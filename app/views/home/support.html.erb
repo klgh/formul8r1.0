@@ -17,9 +17,12 @@
       <div class="container">
           
             <h3>Have a question?</h3>
-            <%= text_field_tag(nil, '',:class=>"form-control input-lg")%> <br>
-            <p><%= link_to "send", 'javascript:;',:class=>"btn btn-success pull-right"%></p>
+            <p>Let us know.</p> <br>
+            <p>
+            <%= link_to "send", 'javascript:;',:class=>"btn btn-success pull-right", :action => 'mailto:kleach@moblbc.com' %>
+            </p>
       </div>
+
       <div class="container">
         <!-- Begin MailChimp Signup Form -->
           <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
