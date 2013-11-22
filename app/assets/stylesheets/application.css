@@ -13,5 +13,4 @@
  *= require bootstrap.min
  *= require fontstyle
  *= require custom
- *= require_tree .
  */

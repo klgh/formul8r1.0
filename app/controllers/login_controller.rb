@@ -1,6 +1,7 @@
 class LoginController < ApplicationController
+	layout 'login'
 
-  def login
+  def signin
   end
   
   def signup

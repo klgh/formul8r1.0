@@ -27,8 +27,8 @@
               <li class="<%= 'active' if params[:action] == 'features' %>"><%= link_to "features", features_url %></li>
               <li class="<%= 'active' if params[:action] == 'pricing' %>"><%= link_to "pricing", pricing_url %></li>
               <li class="<%= 'active' if params[:action] == 'support' %>"><%= link_to "support", support_url %></li>
-              <li class="btn btn-large btn-danger special"><%= link_to "sign up", :class=> "btn btn-large btn-danger special" %></li>
-              <li><%= link_to "log in" %></li>
+              <li class="btn btn-large btn-danger special"><%= link_to "sign up", signup_url, :class=> "btn btn-large btn-danger special" %></li>
+              <li><%= link_to "log in", signin_url %></li>
         </ul>
       </div><!--/.navbar-collapse -->
     </div><!--/container-->
