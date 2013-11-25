@@ -1,5 +1,7 @@
 Formul8r10::Application.routes.draw do
 
+  get "account/index"
+
   get "login/index"
 
   controller :home do
