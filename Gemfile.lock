@@ -106,5 +106,6 @@ DEPENDENCIES
   jquery-rails
   rails (= 3.2.14)
   sass-rails (~> 3.2.3)
+  simple_form
   sqlite3
   uglifier (>= 1.0.3)
