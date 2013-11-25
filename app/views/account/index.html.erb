@@ -1,5 +1,219 @@
 <div class="row">
-  <div class="col-md-4">.col-md-4</div>
-  <div class="col-md-4">.col-md-4</div>
-  <div class="col-md-4">.col-md-4</div>
-</div>
+  <div class="container">
+    <div class="col-md-4">
+
+      <form action="" class="form-horizontal" role="form">
+      
+      <!--email formgroup-->
+        <div class="form-group">
+          <label for="email" class="col-sm-2 control-label ">
+            email
+          </label> <br><br>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="email">
+            </div>
+        </div>
+      <!--ends formgroup-->
+
+      <!--password formgroup-->
+        <div class="form-group">
+          <label for="password" class="col-sm-2 control-label">
+            password
+          </label> <br><br>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="password">
+          </div>
+        </div>
+      <!--ends formgroup-->
+
+      <!--address1 formgroup-->
+        <div class="form-group">
+          <label for="address1" class="col-sm-2 control-label">
+            address 1
+          </label> <br><br>
+            <div class="col-sm-10">
+              <input type="address" class="form-control" id="address1">
+            </div>
+        </div>
+      <!--ends formgroup-->
+
+      <!--address2 formgroup-->
+        <div class="form-group">
+          <label for="address2" class="col-sm-2 control-label">
+            address 2
+          </label> <br><br>
+            <div class="col-sm-10">
+              <input type="address" class="form-control" id="address2">
+            </div>
+        </div>
+      <!--ends formgroup-->
+      
+      <!--city formgroup-->
+        <div class="form-group">
+          <label for="city" class="col-sm-2 control-label">
+            city
+          </label> <br><br>
+            <div class="col-xs-6">
+              <input type="city" class="form-control" id="address2">
+            </div>
+        </div>
+      <!--ends formgroup-->
+      
+      <!--state formgroup-->
+        <div class="form-group">
+            <div class="col-xs-4">
+              <select id="state" class="form-control">
+                <option>state</option>
+                <option>ga</option>
+                <option>fl</option>
+              </select>
+            </div>
+        </div>
+      <!--ends formgroup-->
+      
+      <!--zipcode formgroup-->
+        <div class="form-group">
+          <label for="zipCode" class="col-sm-2 control-label">
+            zip
+          </label> <br><br>
+            <div class="col-xs-5">
+              <input type="zipcode" class="form-control" id="zipCode">
+            </div>
+        </div>
+      <!--ends formgroup-->
+
+      </form><!--ends form-->
+
+    </div><!--ends 1st column-->
+
+    <div class="col-md-4">
+
+      <form action="" class="form-horizontal" role="form">
+        
+      <!--payment option formgroup-->
+        <div class="form-group">
+          <label for="paymentMethod" class="col-sm-2 control-label ">
+            new payment method
+          </label> <br><br>
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                Credit Card
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+              PayPal
+            </label>
+          </div>
+        </div>
+      <!--ends formgroup-->
+
+      <!--credit card number formgroup-->
+        <div class="form-group">
+          <label for="creditCard" class="col-sm-2 control-label">
+            credit card number*
+          </label> <br><br>
+            <div class="col-sm-10">
+              <input type="creditcard" class="form-control" id="creditCard">
+            </div>
+        </div>
+      <!--ends formgroup-->
+
+      <!--credit card month formgroup-->
+        <div class="form-group">
+          <div class="col-xs-4">
+            <select id="expMonth" class="form-control">
+              <option>Month</option>
+              <option>jan</option>
+              <option>feb</option>
+            </select>
+          </div>
+        </div>
+      <!--ends formgroup-->
+
+      <!--credit card year formgroup-->
+        <div class="form-group">
+          <div class="col-xs-4">
+            <select id="expYear" class="form-control">
+              <option>Year</option>
+              <option>2013</option>
+              <option>2014</option>
+            </select>
+          </div>
+        </div>
+      <!--ends formgroup--> 
+          
+      <!--credit card security code formgroup-->
+        <div class="form-group">    
+          <label for="secCode" class="col-sm-2 control-label">
+            security code
+          </label> <br><br>
+            <div class="col-sm-4">
+              <input type="securitycode" class="form-control" id="secCode">
+            </div>
+        </div><!--ends formgroup-->
+
+      <button type="submit" class="btn btn-success">update</button>
+
+      </form><!--ends form-->
+
+    </div><!--ends 2nd column-->
+
+    <div class="col-md-4">
+
+      <form action="" class="form-horizontal" role="form">
+
+        <div class="form-group">
+          <label for="paymentMethod" class="col-sm-2 control-label ">
+            change plan
+          </label> <br><br>
+          
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                Plan 1
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                Plan 2
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                Plan 3
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+               Plan 4
+            </label>
+          </div>
+
+        </div><!--ends form group-->
+
+        <p>
+          Lorem ipsum dolor sit amet, consecte- tur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullam- co laboris nisi ut aliquip ex ea commo- do consequat. Duis aute irure dolor.
+        </p> 
+
+
+        <button type="button" class="btn btn-danger">
+          cancel subscription
+        </button>
+
+      </form><!--ends form-->
+
+    </div><!--ends 3rd row-->
+
+  </div><!--ends container-->
+
+</div><!--ends row-->
