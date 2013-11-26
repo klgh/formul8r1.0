@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row" style="padding-top:20px; padding-bottom: 50px;">
   <div class="container">
     <div class="col-md-4">
 
@@ -28,7 +28,7 @@
 
       <!--address1 formgroup-->
         <div class="form-group">
-          <label for="address1" class="col-sm-2 control-label">
+          <label for="address1" class="col-sm-4 control-label">
             address 1
           </label> <br><br>
             <div class="col-sm-10">
@@ -39,7 +39,7 @@
 
       <!--address2 formgroup-->
         <div class="form-group">
-          <label for="address2" class="col-sm-2 control-label">
+          <label for="address2" class="col-sm-4 control-label">
             address 2
           </label> <br><br>
             <div class="col-sm-10">
@@ -53,6 +53,7 @@
           <label for="city" class="col-sm-2 control-label">
             city
           </label> <br><br>
+
             <div class="col-xs-6">
               <input type="city" class="form-control" id="address2">
             </div>
@@ -92,14 +93,14 @@
         
       <!--payment option formgroup-->
         <div class="form-group">
-          <label for="paymentMethod" class="col-sm-2 control-label ">
-            new payment method
-          </label> <br><br>
+          <strong>new payment method</strong>
           <div class="radio">
             <label>
               <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
                 Credit Card
             </label>
+            <br>
+            <%= image_tag("cc_accepted.png", :height => 25, :width => 150,  :alt => "")%>
           </div>
 
           <div class="radio">
@@ -113,9 +114,7 @@
 
       <!--credit card number formgroup-->
         <div class="form-group">
-          <label for="creditCard" class="col-sm-2 control-label">
-            credit card number*
-          </label> <br><br>
+          <strong>credit card number*</strong>            
             <div class="col-sm-10">
               <input type="creditcard" class="form-control" id="creditCard">
             </div>
@@ -124,6 +123,7 @@
 
       <!--credit card month formgroup-->
         <div class="form-group">
+        <strong>expiration date*</strong><br><br>
           <div class="col-xs-4">
             <select id="expMonth" class="form-control">
               <option>Month</option>
@@ -148,11 +148,9 @@
           
       <!--credit card security code formgroup-->
         <div class="form-group">    
-          <label for="secCode" class="col-sm-2 control-label">
-            security code
-          </label> <br><br>
+          <strong>security code</strong> <br><br>
             <div class="col-sm-4">
-              <input type="securitycode" class="form-control" id="secCode">
+              <input type="securitycode" class="form-control" id="secCode"> <span data-icon="&#xe069;"></span>
             </div>
         </div><!--ends formgroup-->
 
@@ -167,9 +165,7 @@
       <form action="" class="form-horizontal" role="form">
 
         <div class="form-group">
-          <label for="paymentMethod" class="col-sm-2 control-label ">
-            change plan
-          </label> <br><br>
+          <strong>change plan</strong>
           
           <div class="radio">
             <label>
