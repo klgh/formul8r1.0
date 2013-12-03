@@ -4,4 +4,8 @@ class AccountController < ApplicationController
 
   def templates
   end
+
+  def share
+  end
+  
 end

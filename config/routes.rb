@@ -1,10 +1,10 @@
 Formul8r10::Application.routes.draw do
 
-  get "account/index"
-
   get "login/index"
 
+  get "account/index" 
   get "account/templates"
+  get "account/share"
 
   controller :home do
     get 'features' => :features
@@ -21,6 +21,7 @@ Formul8r10::Application.routes.draw do
   controller :account do
     get 'index' => :index
     get 'templates' => :templates
+    get 'share' => :share
   end 
 
 
