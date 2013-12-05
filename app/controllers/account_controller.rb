@@ -7,5 +7,8 @@ class AccountController < ApplicationController
 
   def share
   end
+
+  def createjob
+  end
   
 end

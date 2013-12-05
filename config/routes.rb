@@ -5,6 +5,7 @@ Formul8r10::Application.routes.draw do
   get "account/index" 
   get "account/templates"
   get "account/share"
+  get "account/createjob"
 
   controller :home do
     get 'features' => :features
