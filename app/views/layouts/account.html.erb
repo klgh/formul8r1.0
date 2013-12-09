@@ -2,13 +2,13 @@
 <html>
 <head>
   <title>Formul8r</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= stylesheet_link_tag    "account", :media => "all" %>
   <%= javascript_include_tag "application", :media => "all" %>
   <%= csrf_meta_tags %>
 </head>
 <body>                             
 <!--Navbar-->
-  <div class="navbar  navbar-static-top nav-pills">
+  <div class="navbar  navbar-static-top nav-pills accountnav">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -24,11 +24,11 @@
 
       <div class="navbar-collapse collapse pull-right navbar-ex1-collapse">
         <ul class="nav navbar-nav" id="navtop">
-              <li class="<%= 'active' if params[:action] == 'features' %>"><%= link_to "features", features_url %></li>
-              <li class="<%= 'active' if params[:action] == 'pricing' %>"><%= link_to "pricing", pricing_url %></li>
-              <li class="<%= 'active' if params[:action] == 'support' %>"><%= link_to "support", support_url %></li>
-              <li class="btn btn-large btn-danger special"><%= link_to "sign up", signup_url, :class=> "btn btn-large btn-danger special" %></li>
-              <li><%= link_to "log in", signin_url %></li>
+              <li class="<%= 'active' if params[:action] == 'my forms' %>"><%= link_to "my forms", templates_url %></li>
+              <li class="<%= 'active' if params[:action] == 'create' %>"><%= link_to "create", createjob_url %></li>
+              <li class="<%= 'active' if params[:action] == 'share' %>"><%= link_to "share", share_url %></li>
+              <li class="btn btn-large btn-danger special"><%= link_to "account", account_url, :class=> "btn btn-large btn-danger special" %></li>
+              <li><%= link_to "sign out", signin_url %></li>
         </ul>
       </div><!--/.navbar-collapse -->
     </div><!--/container-->
@@ -39,7 +39,7 @@
 
 <!--Footer
 ===============================-->
-<div class="container">
+<div class="accountnav navbar-fixed-bottom">
   <!-- Example row of columns -->
 
   <footer>

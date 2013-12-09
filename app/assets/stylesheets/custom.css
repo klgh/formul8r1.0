@@ -74,7 +74,7 @@
   }
 
 
-  #navtop .btn {
+  /**#navtop .btn {
     padding-top: 0px;
     padding-right: 0px;
     padding-left: 0px;
@@ -84,7 +84,7 @@
     border-bottom-width: 0px;
     border-left-width: 0px;
 
-  }
+  }**/
 
   a {
       color:#000000;
@@ -280,3 +280,23 @@ form .popover form {
 }
 
 /**END WHAT ARE THESE**/
+
+.special {
+    padding: 0px 0px;
+    border: none;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.open .dropdown-toggle.btn-danger  {
+  color: #fff;
+  background-color: #D9534F;
+  border-color: #D43F3A;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: #D9534F;
+}
+

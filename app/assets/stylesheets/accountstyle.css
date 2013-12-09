@@ -1,10 +1,16 @@
 /** LAYOUT:APPLICATION **/
 body {
     padding-top: -10px;
-    padding-bottom: 40px;
+    padding-bottom: 70px;
     position: relative;
+    
+}
+
+.accountnav {
     background-color: #EEEEEE;
 }
+
+
 
 @media (max-width: 979px) {
     body {
@@ -199,3 +205,34 @@ a:focus {
 }
 
 /** /LOGIN.html **/
+
+.btn-primary {
+    background-color: black;
+}
+
+.pull-left {
+    padding-left: 15px;
+}
+
+.pull-right {
+   padding-right: 20px;
+}
+
+.special {
+    padding: 0px 0px;
+    border: none;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.open .dropdown-toggle.btn-danger  {
+  color: #fff;
+  background-color: #D9534F;
+  border-color: #D43F3A;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: #D9534F;
+}
