@@ -1,18 +1,5 @@
 /** LAYOUT:APPLICATION **/
-  body {
-      padding-top: 15px;
-      padding-bottom: 40px;
-      position: relative;
-  }
-
-      @media (max-width: 979px) {
-          body {
-              padding-top: 15px;
-              position: relative;
-              padding-left: 5px;
-              padding-right: 5px;
-          }
-      }
+  
 
 .navbar-toggle {
   background-color: #FA9300;
@@ -297,6 +284,6 @@ form .popover form {
 }
 
 .nav>li>a:hover, .nav>li>a:focus {
-    background-color: #D9534F;
+    background-color: none;
 }
 

@@ -1,6 +1,6 @@
 /** LAYOUT:APPLICATION **/
 body {
-    padding-top: -10px;
+    padding-top: 15px;
     padding-bottom: 70px;
     position: relative;
     
@@ -234,5 +234,5 @@ a:focus {
 }
 
 .nav>li>a:hover, .nav>li>a:focus {
-    background-color: #D9534F;
+    background-color: none;
 }
