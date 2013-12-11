@@ -1,3 +1,122 @@
 /**Global Custom Styles**/
+	body {
+	      padding-top: 15px;
+	      padding-bottom: 70px;
+	      position: relative;
+	  }
+
+	      @media (max-width: 979px) {
+	          body {
+	              padding-top: 15px;
+	              position: relative;
+	              padding-left: 5px;
+	              padding-right: 5px;
+	          }
+	      }
 
 /**Navbar**/
+	.special {
+	    padding: 0px 0px;
+	    border: none;
+	}
+
+	.btn-danger:hover,
+	.btn-danger:focus,
+	.btn-danger:active,
+	.btn-danger.active,
+	.open .dropdown-toggle.btn-danger  {
+	  color: #fff;
+	  background-color: #D9534F;
+	  border-color: #D43F3A;
+	}
+
+	.nav>li>a:hover, .nav>li>a:focus {
+	    background-color: none;
+	}
+
+/**Footer**/
+	footer {
+	    line-height: 2.5;
+	    font-family: arial;
+	}
+
+	/**FONTS/SIZING**/
+	p {
+	    font-family: arial;
+	}
+
+	h5,.h5 {
+	    font-size:13px;
+	    font-family: arial;
+	}
+
+	.font12 {
+	    font-size:12px;
+	    font-family: arial;
+	}
+
+	.font11 {
+	    font-size:11px;
+	    font-family: arial;
+	}
+
+	.font9 {
+	    font-size:9px;
+	    font-family: arial;
+	}
+
+	.font8 {
+	    font-size:8px;
+	    font-family: arial;
+	}
+
+	footer li {
+	    font-size: 10px;
+	    font-family:'Arial';
+	    font-weight:normal;
+	}
+
+	h3,.h3 {
+	    font-size:27px;
+	    font-family: arial;
+	}
+
+	h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+	    font-family:'Arial';
+	    font-weight:500;
+	    line-height:1.1;
+	}
+
+	@font-face {
+	    font-family: 'Arial';
+	    src: url('/assets/fonts/Arial/Arial.ttf') format ('truetype');
+	    src: url('/assets/fonts/Arial/Arial Italic.ttf') format ('truetype');
+	    src: url('/assets/fonts/Arial/Arial Bold.ttf') format ('truetype');
+	    src: url('/assets/fonts/Arial/Arial Bold Italic.ttf') format ('truetype');
+	    font-weight: normal;
+	    font-style: normal;
+	}
+
+/**Responsive Elements**/
+	img {
+	    max-width: 100%; /**makes images resize nicely**/
+	}
+
+	@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+
+/**Links**/
+	a {
+	    color:#000000;
+	    text-decoration:none;
+	}
+	a:hover,a:focus {
+	    color:#000000;
+	    text-decoration:none;
+	}
+
+	a:focus {
+	    outline:thin dotted #000000;
+	    outline:5px auto -webkit-focus-ring-color;
+	    outline-offset:-2px;
+	}
+
