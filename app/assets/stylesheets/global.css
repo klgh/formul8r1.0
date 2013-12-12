@@ -34,6 +34,14 @@
 	    background-color: none;
 	}
 
+	.navbar-toggle {
+  		background-color: #FA9300;
+	}
+
+	.navbar-toggle .icon-bar {
+  		background-color: #FBC031;
+	}
+
 /**Footer**/
 	footer {
 	    line-height: 2.5;
