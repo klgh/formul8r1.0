@@ -95,16 +95,6 @@
 	    line-height:1.1;
 	}
 
-	@font-face {
-	    font-family: 'Arial';
-	    src: url('/assets/fonts/Arial/Arial.ttf') format ('truetype');
-	    src: url('/assets/fonts/Arial/Arial Italic.ttf') format ('truetype');
-	    src: url('/assets/fonts/Arial/Arial Bold.ttf') format ('truetype');
-	    src: url('/assets/fonts/Arial/Arial Bold Italic.ttf') format ('truetype');
-	    font-weight: normal;
-	    font-style: normal;
-	}
-
 /**Responsive Elements**/
 	img {
 	    max-width: 100%; /**makes images resize nicely**/
@@ -128,3 +118,25 @@
 	    outline-offset:-2px;
 	}
 
+/**FONTS**/
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon/fonts/icomoon.eot');
+	src:url('../fonts/icomoon/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon/fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon/fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon/fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	    font-family: 'Arial';
+	    src: url('../fonts/Arial/Arial.ttf') format ('truetype');
+	    src: url('../fonts/Arial Italic.ttf') format ('truetype');
+	    src: url('../fonts/Arial Bold.ttf') format ('truetype');
+	    src: url('../fonts/Arial Bold Italic.ttf') format ('truetype');
+	    font-weight: normal;
+	    font-style: normal;
+	}
