@@ -3,11 +3,7 @@ Formul8r10::Application.routes.draw do
   get "login/index"
 
   get "account/index" 
-  get "account/templates"
-  get "account/share"
-  get "account/createjob"
 
-  get "login/password"
 
   controller :home do
     get 'features' => :features
@@ -15,6 +11,7 @@ Formul8r10::Application.routes.draw do
     get 'support' => :support
     get 'faq' => :faq
     get 'index' => :index
+    get 'download' => :download
   end
 
   controller :login do

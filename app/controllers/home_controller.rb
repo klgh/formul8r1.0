@@ -15,4 +15,7 @@ class HomeController < ApplicationController
     def faq
     end
 
+    def download
+    end
+
 end
