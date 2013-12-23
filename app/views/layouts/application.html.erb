@@ -28,7 +28,7 @@
               <li class="<%= 'active' if params[:action] == 'features' %>"><%= link_to "features", features_url %></li>
               <li class="<%= 'active' if params[:action] == 'pricing' %>"><%= link_to "pricing", pricing_url %></li>
               <li class="<%= 'active' if params[:action] == 'support' %>"><%= link_to "support", support_url %></li>
-              <li class="btn btn-large btn-danger special"><%= link_to "sign up", signup_url, :class=> "btn btn-large btn-danger special" %></li>
+              <li class="btn btn-large btn-danger special"><span aria-hidden="true" data-icon="icon-reouser"></span> <%= link_to "sign up", signup_url, :class=> "btn btn-large btn-danger special" %></li>
               <li><%= link_to "log in", signin_url %></li>
         </ul>
       </div><!--/.navbar-collapse -->
