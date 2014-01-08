@@ -18,10 +18,7 @@
       margin-bottom: 12px;
   }
 
-  .nav>li>a:hover {
-      text-decoration:none;
-      background-color: white;
-  }
+
 
 
   /**#navtop .btn {

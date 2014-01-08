@@ -41,6 +41,21 @@
 	.navbar-toggle .icon-bar {
   		background-color: #FBC031;
 	}
+	
+	.active {
+		background-color: #EEEEEE;
+	}
+
+	.active>a {
+		color: #1386A8;
+	}
+
+	  .nav>li>a:hover {
+      text-decoration:none;
+  }
+
+
+
 
 /**Footer**/
 	footer {
@@ -79,7 +94,7 @@
 	}
 
 	footer li {
-	    font-size: 10px;
+	    font-size: 12px;
 	    font-family:'Arial';
 	    font-weight:normal;
 	}
